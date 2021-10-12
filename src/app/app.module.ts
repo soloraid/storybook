@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { TaskComponent } from './components/task.component';
+import { TaskListComponent } from './components/task-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TaskComponent,
+    TaskListComponent,
   ],
   imports: [
     BrowserModule
