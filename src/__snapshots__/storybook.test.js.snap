@@ -1,5 +1,62 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots PureInboxScreen Default 1`] = `
+<storybook-wrapper>
+  <app-pure-inbox-screen>
+    
+    <div
+      class="page lists-show"
+    >
+      <nav>
+        <h1
+          class="title-page"
+        >
+          <span
+            class="title-wrapper"
+          >
+            Taskbox
+          </span>
+        </h1>
+      </nav>
+      <app-task-list />
+    </div>
+    
+  </app-pure-inbox-screen>
+</storybook-wrapper>
+`;
+
+exports[`Storyshots PureInboxScreen Error 1`] = `
+<storybook-wrapper>
+  <app-pure-inbox-screen
+    ng-reflect-error="true"
+  >
+    <div
+      class="page lists-show"
+    >
+      <div
+        class="wrapper-message"
+      >
+        <span
+          class="icon-face-sad"
+        />
+        <div
+          class="title-message"
+        >
+          Oh no!
+        </div>
+        <div
+          class="subtitle-message"
+        >
+          Something went wrong
+        </div>
+      </div>
+    </div>
+    
+    
+  </app-pure-inbox-screen>
+</storybook-wrapper>
+`;
+
 exports[`Storyshots PureTaskListComponent Default 1`] = `
 <storybook-wrapper>
   <div
