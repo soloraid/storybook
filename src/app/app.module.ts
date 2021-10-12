@@ -6,11 +6,11 @@ import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
 import { NgxsModule } from '@ngxs/store';
 import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
 import { TaskModule } from './components/task.module';
+import { InboxScreenComponent } from './components/inbox-screen.component';
+import { PureInboxScreenComponent } from './components/pure-inbox-screen.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-  ],
+  declarations: [AppComponent, PureInboxScreenComponent, InboxScreenComponent],
   imports: [
     BrowserModule,
     TaskModule,
